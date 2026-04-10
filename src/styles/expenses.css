@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+}
+
+.input,
+.button {
+  margin: 2px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.edit {
+  margin-right: 4px;
+}
+
+.expense-table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  align-items: center;
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  margin-top: 20px;
+}
+
+.expense-container {
+  width: 400px;   /* same width as table */
+  margin: 0 auto; /* center the whole block */
+}
+
+.total {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
